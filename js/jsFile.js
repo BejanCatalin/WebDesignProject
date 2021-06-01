@@ -7,7 +7,7 @@ function check(){
     else {
         document.getElementById("email").style.borderColor = "green";
     }
-    if (document.getElementById("username").value.length < 8){
+    if (document.getElementById("username").value.length <5){
         document.getElementById("username").style.borderColor = "red";
     }
     else {
@@ -16,28 +16,28 @@ function check(){
     if (document.getElementById("message").value.length < 10){
         document.getElementById("message").style.borderColor = "red";
     }
-    else if (document.getElementById("message").value.length > 30){
+    else if (document.getElementById("message").value.length > 50){
         document.getElementById("message").style.borderColor = "red";
     }
     else {
         document.getElementById("message").style.borderColor = "green";
     }
-    if (document.getElementById("pid").value == "CPU"){
+    if (document.getElementById("pid").value == "001"){
         document.getElementById("pid").style.borderColor = "green";
     }
-    else if (document.getElementById("pid").value == "Motherboard"){
+    else if (document.getElementById("pid").value == "002"){
         document.getElementById("pid").style.borderColor = "green";
     }
-    else if (document.getElementById("pid").value == "RAM Memory"){
+    else if (document.getElementById("pid").value == "003"){
         document.getElementById("pid").style.borderColor = "green";
     }
-    else if (document.getElementById("pid").value == "Graphics Card"){
+    else if (document.getElementById("pid").value == "004"){
         document.getElementById("pid").style.borderColor = "green";
     }
-    else if (document.getElementById("pid").value == "Gaming Mouse"){
+    else if (document.getElementById("pid").value == "005"){
         document.getElementById("pid").style.borderColor = "green";
     }
-    else if (document.getElementById("pid").value == "VR Headset"){
+    else if (document.getElementById("pid").value == "006"){
         document.getElementById("pid").style.borderColor = "green";
     }
     else {
