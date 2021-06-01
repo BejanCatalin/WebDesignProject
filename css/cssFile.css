@@ -80,7 +80,7 @@
     position: relative;
     font-weight:bold;
     font-size:25px;
-    padding:10px;
+    padding:5px;
     animation:animated_div 5s 1;
     -moz-animation:animated_div 5s 1;
     -webkit-animation:animated_div 5s 1;
